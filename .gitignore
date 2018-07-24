@@ -1,0 +1,17 @@
+## ignore all files
+*
+
+## ignore all folders
+!/**/
+
+## include all *.c files in root and subfolders
+!viatel.olb
+!CAD_readme.txt
+!viatel.mdb
+!*.DBC
+
+#exclude folders
+/1VIA_Symbols/
+/archive/
+## include .gitignore
+!.gitignore
